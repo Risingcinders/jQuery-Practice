@@ -36,7 +36,7 @@ var jQuerytasks = [
             "Where'd the title go? Click the button and I'll SHOW you something!",
         init: "$('#title').hide(1000);",
         action: "$('#title').show(1000);",
-        undo: 0,
+        undo: "$('#title').show(1000);",
     },
     {
         title: "Toggle",
