@@ -175,9 +175,7 @@ $("#prev").click(function () {
 function updatepage() {
     console.log("page updated");
     $("#title").text(jQuerytasks[index].title);
-    // $("#title").css("background-color", "transparent");
     $("#para").text(jQuerytasks[index].para);
-    // $("#para").css("background-color", "transparent");
     console.log("previndex =" + previndex);
     console.log("index =" + index);
     eval(jQuerytasks[previndex].undo);
@@ -187,7 +185,6 @@ function updatepage() {
 
 $(":button").click(function () {
     eval(jQuerytasks[index].action);
-    // console.log(jQuerytasks[index].action);
 });
 
 updatepage();
