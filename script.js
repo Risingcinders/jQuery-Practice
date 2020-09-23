@@ -11,7 +11,7 @@ var jQuerytasks = [
         title: "Welcome",
         para: "Click the arrow in the top right to go to the first example!",
         init: "$(':button').hide()",
-        action: 0,
+        action: "",
         undo: "$(':button').show();",
     },
     {
